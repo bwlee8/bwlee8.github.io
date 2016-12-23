@@ -1,0 +1,31 @@
+.Outer{
+	background: grey;
+	width: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+.Header{
+	background: black;
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
+
+.box{
+	background: tomato;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.Box1{
+	
+	color: purple;
+}
+
+.Box2{
+	color: green;
+}
+
+.Box3{
+	color: yellow;
+}
