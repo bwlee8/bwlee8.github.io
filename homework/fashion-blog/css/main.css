@@ -4,7 +4,7 @@
 }
 
 .title{
-	color: red;
+	color: #DD0000;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 40px;
@@ -12,13 +12,25 @@
 
 .title_description{
 	font-size: 20px;
+	line-height: 1.5;
+	text-decoration: none;
+	color: black;
+}
+
+.title_description:hover{
+	color: #aa0000;
 }
 
 .top_navigation{
 	font-family: 'Lato', sans-serif;
 	color: lightgray;
 	font-size: 15px;
+
 	/*word-spacing: 30px;*/
+}
+
+.top_navigation:hover{
+	color: black;
 }
 
 ul{
@@ -49,7 +61,7 @@ li{
 }
 
 .date{
-	color: lightgray;
+	color: #cccccc;
 	font-size: 27px;
 	font-weight: lighter;
 	
@@ -72,7 +84,7 @@ img{
 	margin: 20px 0;
 }
 a.continues{
-	color: red;
+	color: #DD0000;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
@@ -97,7 +109,7 @@ a.continues{
 
 .bottom_navigation{
 	font-size: 13px;
-	color: red;
+	color: #DD0000;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 }
