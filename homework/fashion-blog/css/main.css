@@ -92,6 +92,9 @@ a.continues{
 	width: 600px;
 }
 
+a.continues:hover{
+	color:black;
+}
 .footer{
 	font-size: 13px;
 	color: lightgray;
@@ -114,3 +117,6 @@ a.continues{
 	font-family: 'Lato', sans-serif;
 }
 
+.bottom_navigation:hover{
+	color:black;
+}
