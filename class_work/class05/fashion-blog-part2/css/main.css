@@ -1,8 +1,13 @@
 .outside{
 	background: white;
 	padding: 40px 40px;
+	display: inline-block;
 }
-
+.inner_left_box{
+	/*display: inline-block;*/
+	width: 600px;
+	float: left;
+}
 .title{
 	color: #DD0000;
 	font-family: 'Lato', sans-serif;
@@ -121,4 +126,11 @@ a.continues:hover{
 
 .bottom_navigation:hover{
 	color:black;
+}
+
+.inner_right_box{
+	/*display: inline-block;*/
+	float: right;
+	width: 400px;
+	overflow: hidden;
 }

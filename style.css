@@ -1,26 +1,55 @@
 
 
-body
-{
+body{
     text-align: center;
-
     background: #F0FFF0;
 }
 
-h1
-{
+h1{
     font-family: 'Bree Serif', serif;
     font-size: 84px;
     font-weight: 200;
-
     letter-spacing: .2em;
-
     color: black;
 }
-ul
-{
+
+hr{
+    border: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    width: 100px;
+}
+
+.line_break{
+    margin: 1rem 0;
+}
+
+ul{
     margin: 0;
     padding: 0;
-
     list-style: none;
+    text-align: left;
+}
+
+.social_media_list{
+    word-spacing: 5rem;
+}
+
+a.social_media{
+    text-decoration: none;
+    color: black;
+
+}
+
+a.social_media:hover{
+    color: blue;
+}
+
+.outside_box{
+    padding: 40px;
+}
+.about_me{
+    width: 200px;
+    margin: 20px 0;
 }

@@ -1,0 +1,28 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+nav{
+	
+	/*background: #ff7401;*/
+
+}
+
+nav a{
+	color: #cccccc;
+
+	display: inline-block;
+	/*float: left;*/
+	padding: 20px;
+	text-decoration: none;
+	/*border: 1px solid;
+	border-color: white;*/
+	float: left;
+	background: black;
+}
+
+nav a:hover{
+	color: #ffffff;
+	background: #ff7401;
+}
