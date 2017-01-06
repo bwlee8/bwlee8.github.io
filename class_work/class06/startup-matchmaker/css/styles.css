@@ -1,0 +1,53 @@
+/*// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+*/
+/*Startup Matchmaker CSS*/
+
+.outside_box .header_box{
+	width: 1000px;
+}
+
+
+
+header{
+	background: black;
+	height: 60px;
+	width: 1000px;
+	border-bottom: 4px solid yellow;
+}
+
+header h1{
+	color:yellow;
+	float: left;
+	margin:12px 30px;
+}
+
+nav{
+	width: 600px;
+	height: 60px;
+	float: right;
+
+}
+nav ul{
+	float: right;
+	margin-top: 20px;
+}
+
+nav li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+nav a{
+	color: #cccccc;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #ffffff;
+	background: #ff7401;
+}
+
