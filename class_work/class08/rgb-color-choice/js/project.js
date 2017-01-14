@@ -17,11 +17,13 @@
 // 6. Use .style.background to change the background of #wrapper to colorStr
 
 
+//when 'Change the Color!' button is clicked, changeColor function is called
+//end result: background color changes
 document.getElementById('color-button').onclick = changeColor;
 
-
-
 function changeColor() {
+    
+    //gets input from user, converts to integer and sets integer as new value
     var redRGB = document.getElementById('red').value;
     redRGB = parseInt(redRGB);
 
@@ -32,13 +34,16 @@ function changeColor() {
     var blueRGB = document.getElementById('blue').value;
     blueRGB = parseInt(blueRGB);
 	
+    //grabs value for red, green, and blue, and places in 'rgb(x,y,z)' format
 	var colorStr = 'rgb(' + redRGB + ',' + greenRGB + ',' + blueRGB + ')';
 	console.log(colorStr);
 
-	
+	//changes 'rgb(0,0,0)' in the html to show the values inputted by user. 
+    // calls colorStr value.
     document.querySelector('#colorful-text').innerHTML = colorStr;
 
-
+    // references id: wrapper in html and changes background color. 
+    // calls colorStr for 'rgb' value
     var background = document.querySelector('#wrapper') ;
     background.style.background = colorStr;
 }
