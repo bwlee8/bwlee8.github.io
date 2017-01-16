@@ -1,4 +1,3 @@
-
 // 1. Use document.getElementById() and assign the .onclick event to #color-button
 
 // 2. Write a function, named changeColor, that is called when #color-button is clicked
@@ -22,46 +21,45 @@
 document.getElementById('color-button').onclick = changeColor;
 
 function changeColor() {
-    
+
     //gets input from user, converts to integer and sets integer as new value
     var redRGB = document.getElementById('red').value;
-        if (redRGB < 0 || redRGB > 255 || isNaN(redRGB) == true){
-            console.log('red = ' + redRGB);
-            return false;
-        }
-        else{
-            redRGB = parseInt(redRGB);
-        }
+    
+    if (redRGB < 0 || redRGB > 255 || isNaN(redRGB) == true) {
+        console.log('red = ' + redRGB);
+        return false;
+    } else {
+        redRGB = parseInt(redRGB);
+    }
 
     var greenRGB = document.getElementById('green').value;
-    if (greenRGB < 0 || greenRGB > 255 || isNaN(greenRGB) == true){
-            console.log('green = ' + greenRGB);
-            return false;
-        }
-    else {
+    
+    if (greenRGB < 0 || greenRGB > 255 || isNaN(greenRGB) == true) {
+        console.log('green = ' + greenRGB);
+        return false;
+    } else {
         greenRGB = parseInt(greenRGB);
-        }
+    }
 
     var blueRGB = document.getElementById('blue').value;
-     if (blueRGB < 0 || blueRGB > 255 || isNaN(blueRGB) == true){
-            console.log('blue = ' + blueRGB);
-            return false;
-        }
-    else {
+    
+    if (blueRGB < 0 || blueRGB > 255 || isNaN(blueRGB) == true) {
+        console.log('blue = ' + blueRGB);
+        return false;
+    } else {
         blueRGB = parseInt(blueRGB);
-        }
-	
-    //grabs value for red, green, and blue, and places in 'rgb(x,y,z)' format
-	var colorStr = 'rgb(' + redRGB + ',' + greenRGB + ',' + blueRGB + ')';
-	console.log(colorStr);
+    }
 
-	//changes 'rgb(0,0,0)' in the html to show the values inputted by user. 
+    //grabs value for red, green, and blue, and places in 'rgb(x,y,z)' format
+    var colorStr = 'rgb(' + redRGB + ',' + greenRGB + ',' + blueRGB + ')';
+    console.log(colorStr);
+
+    //changes 'rgb(0,0,0)' in the html to show the values inputted by user. 
     // calls colorStr value.
     document.querySelector('#colorful-text').innerHTML = colorStr;
 
     // references id: wrapper in html and changes background color. 
     // calls colorStr for 'rgb' value
-    var background = document.querySelector('#wrapper') ;
+    var background = document.querySelector('#wrapper');
     background.style.background = colorStr;
 }
-
