@@ -6,17 +6,34 @@ function userInput(){
 
 	//gets input from user and sets it as a value
 	var currentAge = document.getElementById('age').value;
-		console.log(currentAge);
+		if(currentAge < 0 || isNaN(currentAge) == true){
+			console.log('current age = '+ currentAge + ' ' +isNaN(currentAge));
+			return false;
+		}
+		else{
+			console.log(currentAge);
+		}
 
 	var maxAge = document.getElementById('max-age').value;
-		console.log(maxAge);
+		if(maxAge < currentAge || isNaN(maxAge) == true){
+			console.log('current age = '+ maxAge + ' ' +isNaN(maxAge));
+			return false;
+		}
+		else{
+			console.log(maxAge);
+		}
+		
 
 	//which ever item is selected in the drop-down-menu is the value for favDrink
 	var favDrink = document.getElementById('item').value;
 		console.log(favDrink);
 
 	var numDrink = document.getElementById('num-per-day').value;
-		console.log(numDrink);
+		if(numDrink < 0 || isNaN(numDrink) == true){
+			console.log('current age = '+ numDrink + ' ' +isNaN(maxAge));
+			return false;
+		}
+
 
 	//calculates how many more years to live
 	var totalYearsLeft = maxAge - currentAge;
