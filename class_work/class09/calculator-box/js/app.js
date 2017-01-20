@@ -1,4 +1,88 @@
 // 1. Besure to write your code within the $(document).ready(...)
+$('#a10').click(function() {
+
+    var out = $('#out').html()
+
+    console.log(out);
+
+    $('#out').html(parseInt(out) + 10);
+})
+
+
+$('#a20').click(function() {
+    // console.log('Click is working');
+
+    var out = $('#out').html();
+
+    $('#out').html(parseInt(out) + 20);
+
+    console.log(out);
+
+})
+
+$('#a30').click(function() {
+
+    var out = $('#out').html()
+
+    $('#out').html(parseInt(out) + 30);
+
+    console.log(out);
+})
+
+$('#n10').click(function() {
+
+    var out = $('#out').html()
+
+    $('#out').html(parseInt(out) - 10);
+
+    console.log(out);
+})
+
+$('#n20').click(function() {
+
+    var out = $('#out').html()
+
+    $('#out').html(parseInt(out) - 20);
+
+    console.log(out);
+})
+
+$('#n30').click(function() {
+
+    var out = $('#out').html()
+
+    $('#out').html(parseInt(out) - 30);
+
+    console.log(out);
+
+})
+
+$('#red').click(function() {
+
+    $('#out').css('background', 'red');
+
+})
+
+$('#blue').click(function() {
+
+    $('#out').css('background', 'blue');
+
+})
+
+$('#out').click(function() {
+
+    // var count = 0;
+
+    var out = $('#out').html(0);
+
+    $('#out').css('background', 'white');
+
+    console.log(out);
+
+})
+
+
+
 // 2. Add .click() event handlers for each of the boxes:
 // - A) boxes #a10, #a20, and #a30 should each add 10, 20, and 30, respectively, to the value in the center box, #out
 // - B) boxes #n10, #n20, and #n30 should each subtract 10, 20, and 30, respectively, from the value in the center box, #out
