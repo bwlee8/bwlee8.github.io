@@ -6,6 +6,7 @@
 //C=(F-32)/1.8
 
 $('#convert-celsius').click(function(){
+	$('.outside-box').toggleClass('.outside-box-red');
 	var celsius = $('#celsius').val();
 	// console.log(celsius);
 	var convertedTemp = (celsius*1.8)+32;
@@ -14,6 +15,7 @@ $('#convert-celsius').click(function(){
 })
 
 $('#convert-fahrenheit').click(function(){
+	$('.outside-box').toggleClass('.outside-box-blue');
 	var fahrenheit = $('#fahrenheit').val();
 	// console.log(fahrenheit);
 	var convertedTemp = (fahrenheit-32)/1.8;

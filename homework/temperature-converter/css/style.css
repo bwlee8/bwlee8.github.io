@@ -35,6 +35,23 @@
 	padding: 20px;
 }
 
+.outside-box-red{
+	height: 300px;
+	width: 380px;
+	background: red;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.outside-box-blue{
+	height: 300px;
+	width: 380px;
+	background: blue;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
 h2 {
 	display: block;
 	margin-bottom: 20px;
