@@ -8,13 +8,16 @@
 body{
 	margin: 0px;
 	font-family: "Source Sans Pro", sans-serif;
+	box-sizing: border-box;
 }
 .outside_box {
-	width: 1024px;
+	/*width: 1024px;*/
+	width: 80%;
+	box-sizing: border-box;
 }
 
 .header_box{
-	width: 1024px;
+	width: 80%;
 }
 
 
@@ -22,7 +25,7 @@ body{
 header{
 	background: black;
 	height: 60px;
-	width: 1024px;
+	width: 80%;
 	border-bottom: 4px solid yellow;
 }
 
@@ -37,7 +40,7 @@ header h1{
 despite using Oswald like the text file suggeted*/
 
 nav{
-	width: 600px;
+	width: 50%;
 	height: 60px;
 	float: right;
 	font-family: "Oswald", sans-serif;
@@ -46,6 +49,7 @@ nav{
 nav ul{
 	float: right;
 	margin-top: 20px;
+
 }
 
 nav li{
@@ -71,7 +75,8 @@ strike{
 
 .brains{
 	background: #C6C6C6;
-	width: 1024px;
+	width: 80%;
+	box-sizing: border-box;
 	height: 40px;
 	padding-top: 10px;
 }
@@ -89,8 +94,8 @@ h2 span{
 }
 
 .picture_box{
-	background: url(../img/coworking.jpg) no-repeat left center;
-    width: 1024px;
+	background: url(../img/coworking.jpg) no-repeat;
+    width: 80%;
     height: 350px;
     float: left;
 }
@@ -131,8 +136,8 @@ h2 span{
     height: 36px;
     width: 213px;
     position: absolute;
-    left: 640px;
-    top: 335px;
+    /*left: 640px;
+    top: 335px;*/
     font-family: "Oswald", sans-serif;
 }
 
@@ -140,7 +145,7 @@ h2 span{
 	padding: 30px 0px;
     margin: 0px;
     clear: both;
-    width: 1024px;
+    width: 80%;
     float: left;
     background: #f2f2f2
 }
@@ -150,7 +155,7 @@ h2 span{
     height: 200px;
     float: left;
     border-right: 1px solid;
-    background: #f2f2f2
+    /*background: #f2f2f2;*/
     margin: 0px;
     padding: 20px 25px;
 }
@@ -187,7 +192,7 @@ h2 span{
     height: 200px;
     float: left;
     border-right: 1px solid;
-    background: #f2f2f2;
+    /*background: #f2f2f2;*/
     margin: 0px;
     padding: 20px 25px;
 }
@@ -224,7 +229,7 @@ h2 span{
 	width: 290px;
     height: 200px;
     float: left;
-    background: #f2f2f2
+    /*background: #f2f2f2;*/
     margin: 0px;
     padding: 20px 25px;
 }
@@ -264,9 +269,10 @@ a{
 }
 
 footer{
-	width: 964px;
+	width: 80%;
     height: 17px;
     clear: both;
+    box-sizing: border-box;
     background: black;
     padding: 30px;
     margin: 0px;
@@ -278,4 +284,26 @@ footer h4{
 
 h2{
 	font-weight: bold;
+}
+
+.icon{
+	display: none;
+}
+
+@media (max-width: 1595px) {
+	.find_developer_box{
+		border-right: none;
+	}
+}
+
+@media (max-width: 1065px) {
+	.create_profile_box{
+		border-right: none;
+	}
+}
+
+@media (max-width: 1065px) {
+	.create_profile_box{
+		border-right: none;
+	}
 }

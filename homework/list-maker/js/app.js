@@ -33,13 +33,13 @@ $(document).ready(function () {
 
 	// 2. Write the appendItem function here
 	function appendItem(newItem){
-		$('#listItem').append(newItem + ' ');
+		$('#list').append('<li>' + newItem + '</li>');
 		
 	}
 
 	function removeItem(){
-		$('#list').on('click',function(){
-			$(this).children().remove();
+		$('#list').on('click','li', function(){
+			$(this).remove();
 		})
 	}
 	
