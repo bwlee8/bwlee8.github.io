@@ -1,92 +1,130 @@
-.active{
-	
+body {
+    margin: 0px;
 }
 
-.wrapper{
-	padding: 30px 50px;
-}
+.active {}
 
-.menu_navigation{
-	
-	list-style-type: none;
-	display: inline-block;
-	margin:; 0 auto;
-	margin-left: 5px;
-	text-align: center;
-}
-
-.filter{
-	margin: auto;
-	height: 50px;
-	width: 600px;
-	margin; 0 auto;
-	text-align: center;
-
-}
-
-.filter li{
-	list-style-type: none;
-	display: inline-block;
-	height: 40px;
-	width: 50px;
-	margin-top: 10px;
-	margin-left: 5px;
-
-}
-
-.active a{
-	text-align: center;
-}
-
-.photoGrid{
-	list-style-type: none;
-	display: inline-block;
-}
-
-a{
-	text-decoration: none;
+.wrapper {
+    margin: 0% 3%;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 header{
-	/*background: blue;*/
-	height: 50px;
-	width: 600px;
-	clear: both;
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-	font-family: 'Bree Serif', 'Serif';
+	 margin: 0%;
 }
 
-.subheader{
-	height: 50px;
-	width: 600px;
-	margin: 0 auto;
-/*	
+/*.menu_wrapper {
+    text-align: left;
+}
+
+.menu {
+    display: inline-block;
+    padding: 0px;
+    background: black;
+}
+
+.menu_navigation {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu_navigation a {
+    color: white;
+}
+
+.menu_navigation:hover {
+    background: gray;
+}*/
+
+.filter_wrapper {
+	text-align: center;
+}
+
+.filter {
+    /*display: inline-block;*/
+    padding: 0px;
+    margin:0px;
+    background: black;
+   /* opacity: .9;*/
+    width: 100%;
+}
+
+.filter_selection{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 0px;
+    text-align: center;
+}
+.filter_selection a{
+	color: white;
+}
+
+.filter li:hover{
+	background: gray;
+}
+
+.photoGrid {
+    list-style-type: none;
+    display: inline-block;
+    width: 700px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    /*background: blue;*/
+    height: 5%;
+    width: 40%;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Bree Serif', 'Serif';
+    font-size: 400%;
+    font-weight: 900;
+}
+
+.caption {
+    height: 50px;
+    width: 600px;
+    margin: 0 auto;
+    /*	
 	background: pink;*/
 }
 
-.subheader p{
-	text-align: center;
-	display: block;
+.caption p {
+    text-align: center;
+    display: block;
 }
 
-hr{
-	width: 200px;
-	text-align: center;
+hr {
+    width: 20%;
+    display: inline-block;
 }
 
-.photo_link{
-	float: left;
+.content,
+.gallery {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 0;
 }
 
-img{
-	height: 500px;
-    width: 750px;
-    float: left;
+.photo_link {}
+
+img {
+    height: 500px;
+    width: 700px;
     margin: 0;
     padding: 0;
 }
+
+
 /*.gallery li{
 	margin: 0;
 	padding: 0;
@@ -95,7 +133,8 @@ img{
 	margin: 0;
 	padding: 0;
 }*/
-figure{
-	margin: 0;
-	padding: 0;
+
+figure {
+    margin: 0;
+    padding: 0;
 }
