@@ -1,0 +1,92 @@
+/*@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+*/
+h1 {
+  font-family: 'Amatic SC', cursive;
+}
+
+/* Example: These elements are set to display in an evenly-spaced row and wrap to a single column on a small screen */
+
+/* This is your flex parent element */
+.flex-container {
+  border: 2px solid mediumturquoise;
+  background-color: blanchedalmond;
+  padding: 1%;
+  
+/*  this is what sets the container as a flex item (flex or inline-flex) */
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  
+/*  this sets how the flex container will handle elements - the direction the elements will appear (row, row-reverse, column, column-reverse) */
+  -webkit-flex-direction: row;  /* Safari */
+  flex-direction: row;
+  
+/* this sets how the elements behave when the screen gets smaller (nowrap, wrap, or wrap-reverse) */
+  -webkit-flex-wrap: wrap;  /* Safari */
+  flex-wrap: wrap;
+/* this aligns the elements along the main axis of the flex container and handles how free space is handled (flex-start, flex-end, center, space-between, or space-around) */
+  -webkit-justify-content: space-around;  /* Safari */
+  justify-content: space-around;
+  
+/* You can also align elements in the other direction from justify-content (vertically). (stretch, flex-start, flex-end, center, baseline). This is not always necessary.  */
+  -webkit-align-items: stretch; /* Safari */
+  align-items: stretch;
+}
+
+/* These are the children elements */
+.flex-item {
+  background: paleturquoise;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  border: 2px solid teal;
+  line-height: 3em;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* Exercise 2: Columns. Set each element to display in a column and bunch the items up at the bottom of the box. */
+
+/* This is your flex parent element */
+.flex-column {
+  border: 2px solid mediumorchid;
+  background-color: thistle;
+  padding: 1%;
+}
+
+/* These are your children elements */
+.column-element {
+  background: plum;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid orchid;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* Exercise 3: Display all elements in a single row no matter how small the screen gets - and make sure the elements are aligned to the right of the page. */
+
+/* This is your flex parent element */
+.flex-three {
+  border: 2px solid darkslategray;
+  background-color: gainsboro;
+  padding: 1%;
+}
+
+/* These are your children elements */
+.flex-three-child-element {
+  background: slategray;
+  border: 2px solid cadetblue;
+  width: 50px;
+  height: 90px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+

@@ -1,0 +1,55 @@
+.container {
+    margin: 0 auto;
+    width: 85%;
+}
+
+header {
+    background-color: black;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 35px;
+    float: left;
+    color: white;
+}
+
+header nav {
+    float: right;
+    margin-top: 8px;
+}
+
+header nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#small-nav{
+    display: none;
+}
+
+#burger {
+    display: none;
+}
+
+@media (max-width: 880px) {
+    #large-nav {
+        display: none;
+    }
+    #burger {
+        display: block;
+        float: right;
+        padding: 5px;
+    }
+
+    .small-nav-link {
+        display: block;
+        text-align: center;
+        background: #ccc;
+    }
+}

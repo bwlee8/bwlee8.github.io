@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Pacifico', cursive;
+}
+
+video{
+	width: 100%;
+}
+
+.video-wrap{
+	/*border: 2px solid red;*/
+}
+
+h1{
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	width: 100%;
+	top: 150px;
+}
