@@ -153,6 +153,7 @@ p span{
 .bigimage{
     height: 400px;
     width: 600px;
+    margin: auto;
 
 }
 
