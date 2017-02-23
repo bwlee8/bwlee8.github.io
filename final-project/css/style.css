@@ -55,11 +55,11 @@ header{
 
 
 .filter_selection:hover{
-    background: gray;
+    background: #2E8B57;
 } 
 
 .filter_active{
-    background: gray;
+    background: #2E8B57;
 }
 
 .header_offset {
@@ -73,6 +73,15 @@ header{
     padding: 10px 15px;
     height: 19px;
 }
+
+.small_nav{
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
 
 .photoGrid {
     list-style-type: none;

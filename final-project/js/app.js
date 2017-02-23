@@ -20,10 +20,22 @@ $(document).ready(function() {
   //     console.log("unfixed");
   //   }
   // });
+$(window).resize(function () {
+        console.log($(window).width())
+    
+        if ($(window).width() > 880){
+            $('.small_nav').hide();
+        }
+
+    })
+
+    $('.burger').click(function(){
+        $('.small_nav').slideToggle();
+    })
 
     //timer for scroll function. purpose to reduce lag of scroll function
-    var scrollTimer = null;
-    $(window).scroll(function () {
+var scrollTimer = null;
+$(window).scroll(function () {
         if (scrollTimer) {
             clearTimeout(scrollTimer);   // clear any previous pending timer
         }
