@@ -114,7 +114,7 @@ function handleScroll(){
 
         console.log('NA Filter!');
         $('.north_america').fadeIn(500);
-        $('.ocenia').fadeOut(500);
+        $('.oceania').fadeOut(500);
         $('.south_america').fadeOut(500);
         $('.asia').fadeOut(500);
         $('.europe').fadeOut(500);
@@ -126,7 +126,7 @@ function handleScroll(){
         $(this).parent().addClass('filter_active').siblings().removeClass('filter_active');
         console.log('SA Filter!');
         $('.south_america').fadeIn(500);
-        $('.ocenia').fadeOut(500);
+        $('.oceania').fadeOut(500);
         $('.asia').fadeOut(500);
         $('.north_america').fadeOut(500);
         $('.europe').fadeOut(500);
@@ -138,7 +138,7 @@ function handleScroll(){
         $(this).parent().addClass('filter_active').siblings().removeClass('filter_active');
         console.log('EU Filter!');
         $('.europe').fadeIn(500)
-        $('.ocenia').fadeOut(500);
+        $('.oceania').fadeOut(500);
         $('.south_america').fadeOut(500);
         $('.north_america').fadeOut(500);
         $('.asia').fadeOut(500);
@@ -162,7 +162,7 @@ function handleScroll(){
         $(this).parent().addClass('filter_active').siblings().removeClass('filter_active');    
         console.log('AZ Filter!');
         $('.asia').fadeIn(500);
-        $('.ocenia').fadeOut(500);
+        $('.oceania').fadeOut(500);
         $('.south_america').fadeOut(500);
         $('.north_america').fadeOut(500);
         $('.europe').fadeOut(500);
